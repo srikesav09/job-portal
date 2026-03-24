@@ -15,7 +15,7 @@ public class Jobportal {
         con = DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/job_portal",
             "root",
-            "srikesav9@"
+            "your_password"
         );
 
         System.out.println("Connected to MySQL Workbench!");
